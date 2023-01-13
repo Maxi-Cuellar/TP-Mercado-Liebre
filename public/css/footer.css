@@ -1,0 +1,25 @@
+.footer {
+    text-align: center;
+}
+
+.footer__section__div{
+    margin: 30px;
+}
+
+.footer__section__div i{
+    color: var(--celeste);
+    width: 2em;
+}
+
+.footer__section__div h3{
+    font-size: 16px;
+}
+
+.footer__section__div p{
+    font-size: 12px;
+}
+
+.footer__section--copyright p{
+    font-size: 11px;
+    text-align: left;
+}
