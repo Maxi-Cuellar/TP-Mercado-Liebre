@@ -1,4 +1,39 @@
+.home__header__nav--nav{
+    text-align: left;
+    width: 100%;
+    padding: 0%;    
+    margin: 10px;
+}
+
+.home__header__nav--user {
+    text-align: left;
+    width: 100%;
+    padding: 0%;    
+    margin: 10px;
+}
+
+.home__header--texto{
+    text-align: center;
+    font-size: 14px;
+}
+
+.burger--menu{
+    border: none;
+    background-color: var(--celeste);
+    margin: 0 auto 30px;
+    display: block;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.home__banner{
+    padding: 0px;    
+    display: 100%;
+}
 
 .producto__main img{
-    width: 320px;
-};
+    width: 325px;
+}
