@@ -32,8 +32,11 @@
 .home__banner{
     padding: 0px;    
     display: 100%;
+    width: 322px;    
 }
 
 .producto__main img{
     width: 325px;
+    padding: 0px;    
+    display: 100%;
 }
