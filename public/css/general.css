@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: var(--tipografia);
+}
+
+a{
+    
+    text-decoration: none;
+    text-align: left;
+    color: black;
+}
+
+h2{
+    font-size: 24px;
+}
+
+span{
+    font-size: 16px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+p{
+    font-size: 18px;
+}
+
+
