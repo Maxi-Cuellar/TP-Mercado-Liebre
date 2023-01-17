@@ -12,4 +12,3 @@ app.get("/ofertas.html", (req,res) => res.sendFile(path.join(__dirname, "views",
 
 app.listen(puerto,() => console.log("Servidor funcionando en http://localhost:" + puerto ))
 
-
