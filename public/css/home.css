@@ -33,3 +33,7 @@
     padding: 0px;    
     display: 100%;
 }
+
+.producto__main img{
+    width: 325px;
+};
