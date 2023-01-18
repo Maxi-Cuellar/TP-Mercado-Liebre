@@ -1,3 +1,36 @@
 .body__header {
     background-color: var(--amarillo);
+    padding: 10px;
+}
+
+.home__header__nav--nav {
+    display: none;
+}
+
+.home__header__nav--user{
+    display: none;
+}
+
+/* vista tablet */
+@media (min-width:361px) {
+    .home__header__nav--nav {
+        display: block;
+    }
+    .home__header__nav--user {
+        display: block;
+    }
+    .burger--menu{
+        display: none;
+    }
+}
+
+/* vista desktop */
+@media (min-width:769px) {
+    .home__header__nav--nav {
+        display: block;
+    };
+    .home__header__nav--user {
+        display: block;
+    }
+
 }

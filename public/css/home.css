@@ -18,25 +18,71 @@
 }
 
 .burger--menu{
-    border: none;
+    border-radius: 3px;
     background-color: var(--celeste);
     margin: 0 auto 30px;
-    display: block;
     width: 35px;
     height: 35px;
     font-size: 30px;
     text-align: center;
     color: white;
+    display: block;
 }
 
 .home__banner{
     padding: 0px;    
     display: 100%;
-    width: 322px;    
+    width: 100%;    
 }
 
 .producto__main img{
-    width: 325px;
+    margin-bottom: 10px;
+    width: 100%;
     padding: 0px;    
     display: 100%;
+    margin-top: 10px;
+
+}
+
+.producto__main__article{
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin: 0 auto;
+    width: 90%; 
+    margin-top: 20px;
+}
+
+.producto__main__article :last-child{
+    margin-bottom: 0px;
+}
+
+.producto__main--descripcion {
+    border-top: 1px solid var(--grisOscuro);
+    padding: 15px;
+}
+
+.producto__main--descripcion i{
+    color: var(--verde);
+    border: 1px solid var(--verde);
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+}
+
+.producto__main__article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+/* recordar de añadir bos shadow */
+
+/* vista tablet */
+@media (min-width:361px) {
+    .producto__main h3{
+        display: block;
+        };
+
+}
+
+/* vista desktop */
+@media (min-width:769px) {
+    
 }

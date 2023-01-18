@@ -13,6 +13,7 @@ a{
 
 h2{
     font-size: 24px;
+    padding: 10px;
 }
 
 span{
@@ -21,10 +22,20 @@ span{
 
 h3{
     font-size: 16px;
+/*     color: var(--grisOscuro); */
 }
 
 p{
     font-size: 18px;
 }
 
+span{
+    color: var(--verde);
+}
 
+.producto__main h3{
+    color: var(--grisClaro);
+    font-weight: 300;
+    margin-top: 15px;
+    display: none;
+    }
