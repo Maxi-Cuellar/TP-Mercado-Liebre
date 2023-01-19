@@ -1,36 +1,108 @@
 .body__header {
     background-color: var(--amarillo);
-    padding: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px 0;
 }
 
+.body__header__div--logo{
+    width: 50%;
+}
+
+.body__header__div--logo img{
+    width: 90%;
+}
+
+.body__header__div--buscador{
+    width: 50%;
+}
+
+.body__header__div--buscador--margenes {
+    position: relative;;
+}
+
+.body__header__div--buscador--margenes input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    padding-right: 30px;
+}
+
+.body__header__div--buscador--margenes button{
+    position: absolute;
+    top: 3px;
+    right: 0;
+    border: none;
+    background-color: white;
+    border-left: 1px solid var(--grisOscuro);
+    color: var(--grisOscuro);
+}
+
+
 .home__header__nav--nav {
+    list-style-type: none;
+    font-size: 14px;
     display: none;
 }
 
 .home__header__nav--user{
+    list-style-type: none;
+    font-size: 14px;
     display: none;
 }
 
 /* vista tablet */
 @media (min-width:361px) {
+    .body__header{
+        align-items: center;
+    }
+    .body__header__div--logo{
+        width: 30%;
+    }
+    .body__header__div--buscador{
+        width: 30%;
+    }
+    .home__header--texto{
+        width: 30%;
+    }
     .home__header__nav--nav {
         display: block;
     }
     .home__header__nav--user {
         display: block;
     }
-    .burger--menu{
-        display: none;
+    .home__header__menu--menu{
+        display: flex;
+        justify-content: space-between;
+        width: 104%;
+    }
+    .home__header__nav--nav, .home__header__nav--user{
+        display: flex;
+        gap: 15px;
     }
 }
 
 /* vista desktop */
 @media (min-width:769px) {
+    .burger--menu{
+        display: none;
+    }
     .home__header__nav--nav {
         display: block;
-    };
+    }
     .home__header__nav--user {
         display: block;
     }
-
+    .home__header__menu--menu{
+        display: flex;
+        justify-content: space-between;
+        width: 130%;
+    }
+    .home__header__nav--nav, .home__header__nav--user{
+        display: flex;
+        gap: 20px;
+    }
 }

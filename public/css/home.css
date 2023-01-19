@@ -1,23 +1,11 @@
-.home__header__nav--nav{
-    text-align: left;
-    width: 100%;
-    padding: 0%;    
-    margin: 10px;
-}
 
-.home__header__nav--user {
-    text-align: left;
-    width: 100%;
-    padding: 0%;    
-    margin: 10px;
-}
 
 .home__header--texto{
     text-align: center;
     font-size: 14px;
 }
 
-.burger--menu{
+.home__burger--menu{
     border-radius: 3px;
     background-color: var(--celeste);
     margin: 0 auto 30px;
@@ -35,7 +23,22 @@
     width: 100%;    
 }
 
+
+.productoFlexbox {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
 .producto__main img{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0px;    
+    display: 100%;
+    margin-top: 10px;
+
+}
+
+.producto__main__article img{
     margin-bottom: 10px;
     width: 100%;
     padding: 0px;    
@@ -48,41 +51,91 @@
     margin-bottom: 10px;
     background-color: #fff;
     margin: 0 auto;
-    width: 90%; 
+    width: 100%; 
     margin-top: 20px;
+}
+
+.producto__main--visita h2{
+    width: 100%;
+}
+
+.producto__main--oferta h2{
+    width: 100%;
 }
 
 .producto__main__article :last-child{
     margin-bottom: 0px;
 }
 
+.producto__main--descripcion h3{
+    display: none;
+}
+
 .producto__main--descripcion {
     border-top: 1px solid var(--grisOscuro);
     padding: 15px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.producto__main--descripcion p{
+    width: 30%;
+}
+
+.producto__main--descripcion span{
+    width: 70%;
+    font-size: 0,8rem;
 }
 
 .producto__main--descripcion i{
-    color: var(--verde);
-    border: 1px solid var(--verde);
-    border-radius: 50%;
-    text-align: center;
+    display: block;
+    font-size: 16px;
     padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--verde);
+    color: var(--verde);
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
-.producto__main__article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        }
-/* recordar de añadir bos shadow */
 
 /* vista tablet */
 @media (min-width:361px) {
-    .producto__main h3{
-        display: block;
-        };
+        .home__burger--menu{
+            display: none;
+        }
+        .producto__main--descripcion h3{
+            display: block;
+        }
+        .producto__main__article{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            width: 46%;
+        }
+        .productoFlexbox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
 
 }
 
 /* vista desktop */
 @media (min-width:769px) {
-    
+    .home__burger--menu{
+        display: none;
+    }
+    .producto__main{
+        width: 26%; 
+       }
+
+    .producto__main__article{
+        width: 24%;
+    }
+
 }

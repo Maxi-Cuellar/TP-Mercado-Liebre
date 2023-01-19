@@ -3,9 +3,11 @@
     margin: 0%;
     font-family: var(--tipografia);
 }
-
+.home__header--texto i{
+    font-size: 19px;
+    padding: 10px;
+}
 a{
-    
     text-decoration: none;
     text-align: left;
     color: black;
