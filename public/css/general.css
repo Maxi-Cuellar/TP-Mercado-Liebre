@@ -34,7 +34,7 @@ span{
 }
 
 .producto__main h3{
-    color: var(--grisClaro);
+/*     color: var(--grisClaro); */
     font-weight: 300;
     margin-top: 15px;
     display: none;
