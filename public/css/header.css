@@ -77,7 +77,7 @@
     .home__header__menu--menu{
         display: flex;
         justify-content: space-between;
-        width: 104%;
+        width: 105%;
     }
     .home__header__nav--nav, .home__header__nav--user{
         display: flex;
@@ -99,10 +99,10 @@
     .home__header__menu--menu{
         display: flex;
         justify-content: space-between;
-        width: 130%;
+        width: 143%;
     }
     .home__header__nav--nav, .home__header__nav--user{
         display: flex;
-        gap: 20px;
+        gap: 15px;
     }
 }
