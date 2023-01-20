@@ -24,3 +24,15 @@
     font-size: 11px;
     text-align: left;
 }
+
+/* vista desktop */
+@media (min-width:769px) {
+    .footer--comentarioFinal {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        background-color: white;
+        margin: 40px;
+    }
+
+}
